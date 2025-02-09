@@ -36,12 +36,8 @@ search icon**.
 years**.
    - If no results are found, displays a **"No movies found"** message.
 
-## **📸 Screenshots**
-📌 **Homepage**  
-✅ **Search Results Page**  
-
-*(Add screenshots here if needed)*
-
 ## **🔗 Live Demo**
-👉 [View Live Project](https://yourgithubusername.github.io/mock-netflix/)
+👉 [View Live 
+Project](https://hcheem4.github.io/Mock-Netflix---Movie-Search-UI/)
+
 
