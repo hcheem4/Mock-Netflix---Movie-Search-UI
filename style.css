@@ -199,7 +199,7 @@ body {
 
 
 /* iPhone 12 - Already in Your CSS */
-@media (max-width: 390px) {
+@media (max-width: 500px) {
     .nav-links {
       display: none;
     }
@@ -239,7 +239,7 @@ body {
   }
   
   /* 📱 iPhone 14 Plus (428px wide) */
-  @media (max-width: 428px) {
+  @media (max-width: 438px) {
     .nav-links {
       display: none;
     }
