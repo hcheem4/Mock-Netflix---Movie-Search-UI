@@ -1,4 +1,5 @@
 const apiKey = "35432338";
+const apiUrl = `https://www.omdbapi.com/?apikey=${apiKey}&s=`;
 
 // Fetch movies when content.html loads
 window.onload = function () {
@@ -13,7 +14,8 @@ async function fetchMovies() {
 
   document.getElementById("searchInput").value = query; // Keep last searched value
 
-  const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=${query}`;
+  const url = `https://www.omdbapi.com/?apikey=${apiKey}&s=${query}`;
+
   const response = await fetch(url);
   const data = await response.json();
 
