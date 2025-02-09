@@ -198,44 +198,101 @@ body {
 /*
 
 
-/* Styles for iPhone 12 in portrait mode */
+/* iPhone 12 - Already in Your CSS */
 @media (max-width: 390px) {
-  /* Your styles here */
-
-  .nav-links {
-    display: none;
+    .nav-links {
+      display: none;
+    }
+  
+    .logo {
+      margin-right: 100px;
+      font-size: 18px;
+    }
+  
+    .search-box input {
+      width: 80px;
+      font-size: 14px;
+    }
+  
+    .content__title {
+      font-size: 24px;
+    }
+  
+    .movie {
+      width: calc(100% / 3.5);
+      font-size: 12px;
+    }
+  
+    .movie__poster {
+      height: auto;
+      max-width: 100%;
+    }
+  
+    .movies-container {
+      justify-content: space-between;
+      padding: 16px;
+    }
+  
+    .search-box input:focus {
+      width: 80px !important; /* Keep it from expanding */
+    }
   }
-
-  .logo {
-    margin-right: 100px;
-    font-size: 18px;
+  
+  /* 📱 iPhone 14 Plus (428px wide) */
+  @media (max-width: 428px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .logo {
+      font-size: 20px;
+      margin-right: 80px;
+    }
+  
+    .search-box input {
+      width: 90px;
+      font-size: 15px;
+    }
+  
+    .content__title {
+      font-size: 26px;
+    }
+  
+    .movie {
+      width: calc(100% / 3.5);
+    }
+  
+    .movies-container {
+      justify-content: space-between;
+    }
   }
-
-  .search-box input {
-    width: 80px;
-    font-size: 14px;
+  
+  /* 📱 Samsung Galaxy S23 (412px wide) */
+  @media (max-width: 412px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .logo {
+      font-size: 20px;
+      margin-right: 80px;
+    }
+  
+    .search-box input {
+      width: 90px;
+      font-size: 15px;
+    }
+  
+    .content__title {
+      font-size: 26px;
+    }
+  
+    .movie {
+      width: calc(100% / 3.5);
+    }
+  
+    .movies-container {
+      justify-content: space-between;
+    }
   }
-
-  .content__title {
-    font-size: 24px;
-  }
-
-  .movie {
-    width: calc(100% / 3.5);
-    font-size: 12px;
-  }
-
-  .movie__poster {
-    height: auto;
-    max-width: 100%;
-  }
-
-  .movies-container {
-    justify-content: space-between;
-    padding: 16px;
-  }
-
-  .search-box input:focus {
-    width: 80px !important; /* Keep it from expanding */
-  }
-}
+  
